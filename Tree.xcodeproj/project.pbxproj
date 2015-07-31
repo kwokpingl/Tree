@@ -19,7 +19,7 @@
 		6B1B54D51B6AF6B100E6F8FD /* TrieLayoutAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B1B54CA1B6AF6B000E6F8FD /* TrieLayoutAttributes.m */; };
 		6B1B54D61B6AF6B100E6F8FD /* TrieSuppView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B1B54CC1B6AF6B000E6F8FD /* TrieSuppView.m */; };
 		6B1B54D71B6AF6B100E6F8FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B1B54CD1B6AF6B000E6F8FD /* Main.storyboard */; };
-		6B1B54D81B6AF6B100E6F8FD /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 6B1B54CE1B6AF6B000E6F8FD /* README.md */; };
+		6B1B54DA1B6AFA0800E6F8FD /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 6B1B54D91B6AFA0800E6F8FD /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,7 +45,7 @@
 		6B1B54CB1B6AF6B000E6F8FD /* TrieSuppView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrieSuppView.h; sourceTree = "<group>"; };
 		6B1B54CC1B6AF6B000E6F8FD /* TrieSuppView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrieSuppView.m; sourceTree = "<group>"; };
 		6B1B54CD1B6AF6B000E6F8FD /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		6B1B54CE1B6AF6B000E6F8FD /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		6B1B54D91B6AFA0800E6F8FD /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +94,8 @@
 				6B1B54CA1B6AF6B000E6F8FD /* TrieLayoutAttributes.m */,
 				6B1B54CB1B6AF6B000E6F8FD /* TrieSuppView.h */,
 				6B1B54CC1B6AF6B000E6F8FD /* TrieSuppView.m */,
+				6B1B54D91B6AFA0800E6F8FD /* README.md */,
 				6B1B54CD1B6AF6B000E6F8FD /* Main.storyboard */,
-				6B1B54CE1B6AF6B000E6F8FD /* README.md */,
 				6B1B54B21B6AF69300E6F8FD /* Assets.xcassets */,
 				6B1B54B41B6AF69300E6F8FD /* LaunchScreen.storyboard */,
 				6B1B54B71B6AF69300E6F8FD /* Info.plist */,
@@ -184,7 +184,7 @@
 			files = (
 				6B1B54D21B6AF6B100E6F8FD /* TrieDataSource.m in Sources */,
 				6B1B54CF1B6AF6B100E6F8FD /* AppDelegate.m in Sources */,
-				6B1B54D81B6AF6B100E6F8FD /* README.md in Sources */,
+				6B1B54DA1B6AFA0800E6F8FD /* README.md in Sources */,
 				6B1B54D51B6AF6B100E6F8FD /* TrieLayoutAttributes.m in Sources */,
 				6B1B54D11B6AF6B100E6F8FD /* Trie.m in Sources */,
 				6B1B54D01B6AF6B100E6F8FD /* TrieController.m in Sources */,
