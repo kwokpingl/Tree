@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  TrieCell.h
 //  Tree
 //
 //  Created by Scott Riccardelli on 7/22/15.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface TrieCell : UICollectionViewCell
 
-@property (strong, nonatomic) UIWindow* window;
+- (void)setLabelString:(NSString*)labelString;
 
 @end

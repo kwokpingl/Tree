@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  TrieSuppView.h
 //  Tree
 //
 //  Created by Scott Riccardelli on 7/22/15.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface TrieSuppView : UICollectionReusableView
 
-@property (strong, nonatomic) UIWindow* window;
+@property (strong, nonatomic) NSMutableArray* controlPoints;
 
 @end

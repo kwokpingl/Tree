@@ -8,24 +8,44 @@
 
 /* Begin PBXBuildFile section */
 		6B1B54A81B6AF69300E6F8FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B1B54A71B6AF69300E6F8FD /* main.m */; };
-		6B1B54AB1B6AF69300E6F8FD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B1B54AA1B6AF69300E6F8FD /* AppDelegate.m */; };
-		6B1B54AE1B6AF69300E6F8FD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B1B54AD1B6AF69300E6F8FD /* ViewController.m */; };
-		6B1B54B11B6AF69300E6F8FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B1B54AF1B6AF69300E6F8FD /* Main.storyboard */; };
 		6B1B54B31B6AF69300E6F8FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B1B54B21B6AF69300E6F8FD /* Assets.xcassets */; };
 		6B1B54B61B6AF69300E6F8FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B1B54B41B6AF69300E6F8FD /* LaunchScreen.storyboard */; };
+		6B1B54CF1B6AF6B100E6F8FD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B1B54BE1B6AF6B000E6F8FD /* AppDelegate.m */; };
+		6B1B54D01B6AF6B100E6F8FD /* TrieController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B1B54C01B6AF6B000E6F8FD /* TrieController.m */; };
+		6B1B54D11B6AF6B100E6F8FD /* Trie.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B1B54C21B6AF6B000E6F8FD /* Trie.m */; };
+		6B1B54D21B6AF6B100E6F8FD /* TrieDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B1B54C41B6AF6B000E6F8FD /* TrieDataSource.m */; };
+		6B1B54D31B6AF6B100E6F8FD /* TrieCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B1B54C61B6AF6B000E6F8FD /* TrieCell.m */; };
+		6B1B54D41B6AF6B100E6F8FD /* TrieLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B1B54C81B6AF6B000E6F8FD /* TrieLayout.m */; };
+		6B1B54D51B6AF6B100E6F8FD /* TrieLayoutAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B1B54CA1B6AF6B000E6F8FD /* TrieLayoutAttributes.m */; };
+		6B1B54D61B6AF6B100E6F8FD /* TrieSuppView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B1B54CC1B6AF6B000E6F8FD /* TrieSuppView.m */; };
+		6B1B54D71B6AF6B100E6F8FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B1B54CD1B6AF6B000E6F8FD /* Main.storyboard */; };
+		6B1B54D81B6AF6B100E6F8FD /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 6B1B54CE1B6AF6B000E6F8FD /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6B1B54A31B6AF69300E6F8FD /* Tree.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tree.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B1B54A71B6AF69300E6F8FD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6B1B54A91B6AF69300E6F8FD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		6B1B54AA1B6AF69300E6F8FD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		6B1B54AC1B6AF69300E6F8FD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		6B1B54AD1B6AF69300E6F8FD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		6B1B54B01B6AF69300E6F8FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6B1B54B21B6AF69300E6F8FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6B1B54B51B6AF69300E6F8FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6B1B54B71B6AF69300E6F8FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B1B54BD1B6AF6B000E6F8FD /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6B1B54BE1B6AF6B000E6F8FD /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6B1B54BF1B6AF6B000E6F8FD /* TrieController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrieController.h; sourceTree = "<group>"; };
+		6B1B54C01B6AF6B000E6F8FD /* TrieController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrieController.m; sourceTree = "<group>"; };
+		6B1B54C11B6AF6B000E6F8FD /* Trie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Trie.h; sourceTree = "<group>"; };
+		6B1B54C21B6AF6B000E6F8FD /* Trie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Trie.m; sourceTree = "<group>"; };
+		6B1B54C31B6AF6B000E6F8FD /* TrieDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrieDataSource.h; sourceTree = "<group>"; };
+		6B1B54C41B6AF6B000E6F8FD /* TrieDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrieDataSource.m; sourceTree = "<group>"; };
+		6B1B54C51B6AF6B000E6F8FD /* TrieCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrieCell.h; sourceTree = "<group>"; };
+		6B1B54C61B6AF6B000E6F8FD /* TrieCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrieCell.m; sourceTree = "<group>"; };
+		6B1B54C71B6AF6B000E6F8FD /* TrieLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrieLayout.h; sourceTree = "<group>"; };
+		6B1B54C81B6AF6B000E6F8FD /* TrieLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrieLayout.m; sourceTree = "<group>"; };
+		6B1B54C91B6AF6B000E6F8FD /* TrieLayoutAttributes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrieLayoutAttributes.h; sourceTree = "<group>"; };
+		6B1B54CA1B6AF6B000E6F8FD /* TrieLayoutAttributes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrieLayoutAttributes.m; sourceTree = "<group>"; };
+		6B1B54CB1B6AF6B000E6F8FD /* TrieSuppView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrieSuppView.h; sourceTree = "<group>"; };
+		6B1B54CC1B6AF6B000E6F8FD /* TrieSuppView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrieSuppView.m; sourceTree = "<group>"; };
+		6B1B54CD1B6AF6B000E6F8FD /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		6B1B54CE1B6AF6B000E6F8FD /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +78,24 @@
 		6B1B54A51B6AF69300E6F8FD /* Tree */ = {
 			isa = PBXGroup;
 			children = (
-				6B1B54A91B6AF69300E6F8FD /* AppDelegate.h */,
-				6B1B54AA1B6AF69300E6F8FD /* AppDelegate.m */,
-				6B1B54AC1B6AF69300E6F8FD /* ViewController.h */,
-				6B1B54AD1B6AF69300E6F8FD /* ViewController.m */,
-				6B1B54AF1B6AF69300E6F8FD /* Main.storyboard */,
+				6B1B54BD1B6AF6B000E6F8FD /* AppDelegate.h */,
+				6B1B54BE1B6AF6B000E6F8FD /* AppDelegate.m */,
+				6B1B54BF1B6AF6B000E6F8FD /* TrieController.h */,
+				6B1B54C01B6AF6B000E6F8FD /* TrieController.m */,
+				6B1B54C11B6AF6B000E6F8FD /* Trie.h */,
+				6B1B54C21B6AF6B000E6F8FD /* Trie.m */,
+				6B1B54C31B6AF6B000E6F8FD /* TrieDataSource.h */,
+				6B1B54C41B6AF6B000E6F8FD /* TrieDataSource.m */,
+				6B1B54C51B6AF6B000E6F8FD /* TrieCell.h */,
+				6B1B54C61B6AF6B000E6F8FD /* TrieCell.m */,
+				6B1B54C71B6AF6B000E6F8FD /* TrieLayout.h */,
+				6B1B54C81B6AF6B000E6F8FD /* TrieLayout.m */,
+				6B1B54C91B6AF6B000E6F8FD /* TrieLayoutAttributes.h */,
+				6B1B54CA1B6AF6B000E6F8FD /* TrieLayoutAttributes.m */,
+				6B1B54CB1B6AF6B000E6F8FD /* TrieSuppView.h */,
+				6B1B54CC1B6AF6B000E6F8FD /* TrieSuppView.m */,
+				6B1B54CD1B6AF6B000E6F8FD /* Main.storyboard */,
+				6B1B54CE1B6AF6B000E6F8FD /* README.md */,
 				6B1B54B21B6AF69300E6F8FD /* Assets.xcassets */,
 				6B1B54B41B6AF69300E6F8FD /* LaunchScreen.storyboard */,
 				6B1B54B71B6AF69300E6F8FD /* Info.plist */,
@@ -136,9 +169,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B1B54D71B6AF6B100E6F8FD /* Main.storyboard in Resources */,
 				6B1B54B61B6AF69300E6F8FD /* LaunchScreen.storyboard in Resources */,
 				6B1B54B31B6AF69300E6F8FD /* Assets.xcassets in Resources */,
-				6B1B54B11B6AF69300E6F8FD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,23 +182,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6B1B54AE1B6AF69300E6F8FD /* ViewController.m in Sources */,
-				6B1B54AB1B6AF69300E6F8FD /* AppDelegate.m in Sources */,
+				6B1B54D21B6AF6B100E6F8FD /* TrieDataSource.m in Sources */,
+				6B1B54CF1B6AF6B100E6F8FD /* AppDelegate.m in Sources */,
+				6B1B54D81B6AF6B100E6F8FD /* README.md in Sources */,
+				6B1B54D51B6AF6B100E6F8FD /* TrieLayoutAttributes.m in Sources */,
+				6B1B54D11B6AF6B100E6F8FD /* Trie.m in Sources */,
+				6B1B54D01B6AF6B100E6F8FD /* TrieController.m in Sources */,
+				6B1B54D41B6AF6B100E6F8FD /* TrieLayout.m in Sources */,
+				6B1B54D61B6AF6B100E6F8FD /* TrieSuppView.m in Sources */,
 				6B1B54A81B6AF69300E6F8FD /* main.m in Sources */,
+				6B1B54D31B6AF6B100E6F8FD /* TrieCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		6B1B54AF1B6AF69300E6F8FD /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6B1B54B01B6AF69300E6F8FD /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		6B1B54B41B6AF69300E6F8FD /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

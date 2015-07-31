@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  TrieController.h
 //  Tree
 //
 //  Created by Scott Riccardelli on 7/22/15.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow* window;
+@interface TrieController : UICollectionViewController
 
 @end
